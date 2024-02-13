@@ -6,7 +6,7 @@
 /*   By: reldahli <reldahli@student.42berlin.d      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/03 12:44:04 by reldahli          #+#    #+#             */
-/*   Updated: 2023/10/13 12:34:30 by reldahli         ###   ########.fr       */
+/*   Updated: 2023/10/03 17:23:26 by reldahli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,5 +57,6 @@ void	ft_print_comb(void)
 
 int     main(void)
 {
-       ft_print_comb();
+    ft_print_comb();
+	return (0);
 }

@@ -24,7 +24,8 @@ void	ft_is_negative(int n)
 	}
 }
 
-//int     main(void)
-//{
-//        ft_print_numbers();
-//}
+int     main(void)
+{
+       ft_print_numbers();
+	   	return (0);
+}

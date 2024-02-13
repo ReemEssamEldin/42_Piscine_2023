@@ -6,22 +6,19 @@
 /*   By: reldahli <reldahli@student.42berlin.d      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/02 15:24:25 by reldahli          #+#    #+#             */
-/*   Updated: 2023/10/05 15:27:41 by reldahli         ###   ########.fr       */
+/*   Updated: 2023/10/03 17:34:20 by reldahli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void    ft_putchar(char c);
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
 
 int main(void)
 {
         ft_putchar('c');
+        return (0);
 }
-
-void    ft_putchar(char c)
-{
-        write(1, &c, 1);
-}
-
-
