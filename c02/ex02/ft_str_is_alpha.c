@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int	ft_str_is_alpha(char *str)
 {
@@ -27,7 +27,7 @@ int	ft_str_is_alpha(char *str)
 	}
 	return (1);
 }
-/*
+
 int main(void)
 {
 	int	is_alpha;
@@ -36,4 +36,3 @@ int main(void)
 	printf("%d \n", is_alpha);
 	return (0);
 }
-*/

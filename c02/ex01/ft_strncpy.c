@@ -6,36 +6,37 @@
 /*   By: reldahli <reldahli@student.42berlin.d      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 11:34:16 by reldahli          #+#    #+#             */
-/*   Updated: 2023/10/10 16:52:36 by reldahli         ###   ########.fr       */
+/*   Updated: 2023/10/16 10:33:39 by reldahli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strncpy(char *dest, char *src, unsigned int n)
 {
-	unsigned int	i;
+	unsigned int	c;
 
-	i = 0;
-	while (i < n)
+	c = 0;
+	while (c < n && src[c] != '\0')
 	{
-		dest[i] = src[i];
-		i++;
+		dest[c] = src[c];
+		c++;
 	}
-	while (i < n)
+	while (c < n)
 	{
-		dest[i] = '\0';
-		i++;
+		dest[c] = '\0';
+		c++;
 	}
 	return (dest);
 }
-/*
-int	main(void)
+
+int	main()
 {
-	char	dest[20];
-	char	*src = "This is ex01!";
-	ft_strncpy(dest, src, 10);
-	printf( "The copied text is: %s \n", dest);
+	char	src[] = "Hello world!";
+	char	dest[30];
+	unsigned int	limit;
+
+	limit = 5;
+	printf("%s", ft_strncpy(dest, src, limit));
 	return (0);
 }
-*/

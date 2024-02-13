@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 int	ft_str_is_numeric(char *str)
 {
@@ -27,7 +27,7 @@ int	ft_str_is_numeric(char *str)
 	}
 	return (1);
 }
-/*
+
 int main(void)
 {
 	int	is_num;
@@ -36,4 +36,3 @@ int main(void)
 	printf("%d \n", is_num);
 	return (0);
 }
-*/

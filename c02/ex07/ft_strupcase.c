@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {
@@ -27,7 +27,7 @@ char	*ft_strupcase(char *str)
 	}
 	return (str);
 }
-/*
+
 int	main(void)
 {
 	char	*upcase;
@@ -36,4 +36,3 @@ int	main(void)
 	printf("%s \n", upcase);
 	return (0);
 }
-*/
