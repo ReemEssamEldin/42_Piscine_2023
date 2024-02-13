@@ -10,11 +10,11 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-// #include <stdio.h>
+#include <stdio.h>
 
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-	int count;
+	int	count;
 
 	count = 0;
 	while (*str != '\0')
@@ -25,10 +25,10 @@ int ft_strlen(char *str)
 	return (count);
 }
 
-int main(void)
+int	main(void)
 {
-	char string_of_char[] = "This is EX06\n";
-	int length;
+	char	string_of_char[] = "This is EX06\n";
+	int	length;
 
 	length = ft_strlen(string_of_char);
 	printf("The number of characters = %d", length);

@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <unistd.h>
+#include <unistd.h>
 
 void	ft_putstr(char *str)
 {
@@ -20,11 +20,10 @@ void	ft_putstr(char *str)
 		str++;
 	}
 }
-/*
+
 int	main(void)
 {
 	char	string_of_char[] = "This is EX05 \n";
 	ft_putstr(string_of_char);
 	return (0);
 }
-*/

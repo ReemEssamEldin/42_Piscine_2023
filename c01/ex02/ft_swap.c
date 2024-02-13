@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 void	ft_swap(int *a, int *b)
 {
@@ -21,7 +21,6 @@ void	ft_swap(int *a, int *b)
 	*b = temp;
 }
 
-/*
 int	main(void)
 {
 	int a;
@@ -34,4 +33,3 @@ int	main(void)
 	printf("The value AFTER swap = %d \n", a);
 	return 0;
 }
-*/

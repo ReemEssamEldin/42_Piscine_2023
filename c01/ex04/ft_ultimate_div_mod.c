@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 void	ft_ultimate_div_mod(int *a, int *b)
 {
@@ -22,7 +22,7 @@ void	ft_ultimate_div_mod(int *a, int *b)
 	*a = di;
 	*b = mo;
 }
-/*
+
 int	main(void)
 {
 	int     a;
@@ -34,4 +34,3 @@ int	main(void)
 	printf("value a = %d, value b = %d \n", a, b);
 	printf("The Divition = %d and The Modulour = %d ", a, b);
 }
-*/

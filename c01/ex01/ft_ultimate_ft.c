@@ -10,14 +10,13 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 
 void	ft_ultimate_ft(int *********nbr)
 {
 	*********nbr = 42;
 }
 
-/*
 it	main(void)
 {
 	int	number;
@@ -34,16 +33,15 @@ it	main(void)
 	number = 0;
 	nbr9 = &nbr8;
 	nbr8 = &nbr7;
-    nbr7 = &nbr6;
-    nbr6 = &nbr5;
-    nbr5 = &nbr4;
-	nbr4 = &nbr3;
-	nbr3 = &nbr2;
-    nbr2 = &nbr1;
-    nbr1 = &number ;
+        nbr7 = &nbr6;
+        nbr6 = &nbr5;
+        nbr5 = &nbr4;
+        nbr4 = &nbr3;
+        nbr3 = &nbr2;
+        nbr2 = &nbr1;
+        nbr1 = &number ;
 
 	ft_ultimate_ft(nbr9);
 	printf("%d", number);
 	return (0);
 }
-*/
